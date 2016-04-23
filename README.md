@@ -1,4 +1,4 @@
-# Website readme or not
+# Website Read Me or Not
 Lightweight jQuery extension for modifying scrolling speed in modern web browsers. Supports vertical or horizontal scrolling direction, including user-defined easing.
 
 ## Installation
