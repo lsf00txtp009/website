@@ -1,4 +1,4 @@
-# jQuery.scrollSpeed
+# Website readme or not
 Lightweight jQuery extension for modifying scrolling speed in modern web browsers. Supports vertical or horizontal scrolling direction, including user-defined easing.
 
 ## Installation
