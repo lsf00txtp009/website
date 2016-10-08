@@ -31,7 +31,7 @@
 ```
 
 ##扩充，输入制定字符执行命令
-···
+```
 <html>
 <head>
 <title>将按下的按键显示在页面上</title>
@@ -61,4 +61,34 @@
 <div id="txt"></div>
 </body>
 </html>
-···
+```
+
+<html>
+<head>
+<title>将按下的按键显示在页面上</title>
+<script language="javascript">
+<!--
+  str = "";
+  function showkey(){
+    asc = event.keyCode;
+    key = String.fromCharCode(asc);
+    str += key;
+    txt.innerHTML = str;
+
+    if (str=="qweqwe"){
+    alert("you got me!");
+    window.open("http://www.w3schools.com");
+    }
+    if (str.length==10){
+    str="";
+    }
+  }
+  document.onkeypress=showkey;
+-->
+</script>
+</head>
+<body>
+将按下的按键显示在页面上
+<div id="txt"></div>
+</body>
+</html>
